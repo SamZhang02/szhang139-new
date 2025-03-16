@@ -18,7 +18,7 @@ export const persona = {
         url: "https://www.dayforce.com",
       },
       {
-        title: "Machine Learning Research Engineer Intern @ Meituan",
+        title: "Algorithm Engineer Intern @ Meituan",
         desc: "may 2023 - aug. 2023",
         url: "https://www.meituan.com",
       },
