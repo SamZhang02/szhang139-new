@@ -4,7 +4,7 @@ export const persona = {
   description: "Undergraduate Student, Software Developer",
   email: "sam.zijing.zhang [at] gmail [dot] com",
   story:
-    "My name is Sam, I have been an undergraduate student at McGill University since Fall 2022, joint majoring in Computer Science and Statistics. I am currently working as a Software Development Intern at Coveo as part of their Machine Learning Platform Infrastructure team",
+    "My name is Sam, I have been an undergraduate student at McGill University since Fall 2022, joint majoring in Computer Science and Statistics.",
   sections: {
     experience: [
       {

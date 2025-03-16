@@ -13,16 +13,16 @@ const fullName = persona.firstName + " " + persona.secondName;
 <Layout title={fullName} desc={persona.description}>
   <Header title={fullName} description={persona.description} />
   <Story story={persona.story} />
-  <!-- <Section> -->
-  <!--   <SectionTitle title="my experiences in the industry" /> -->
-  <!--   <List> -->
-  <!--     { -->
-  <!--       persona.sections.experience.map((e) => ( -->
-  <!--         <ListItem title={e.title} desc={e.desc} url={e.url} /> -->
-  <!--       )) -->
-  <!--     } -->
-  <!--   </List> -->
-  <!-- </Section> -->
+  <Section>
+    <SectionTitle title="my experiences" />
+    <List>
+      {
+        persona.sections.experience.map((e) => (
+          <ListItem title={e.title} desc={e.desc} url={e.url} />
+        ))
+      }
+    </List>
+  </Section>
   <Section>
     <SectionTitle title="you may find these helpful or interesting" />
     <List>
